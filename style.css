@@ -7,13 +7,12 @@ body {
 header {
   color: whitesmoke;
   background-color: #222;
-  padding: 10px;
   margin: -8px;
   position: fixed;
   width: 100%;
   margin-top: -140px;
   text-align: center;
-  box-shadow: #1a1a1a 5px 20px 20px;
+  box-shadow: #0a0a0a -25px 20px 20px;
 }
 main {
   margin-top: 140px;
@@ -36,6 +35,18 @@ article {
   border-radius: 15px;
   width: 50%;
   margin-bottom: 20px;
+  box-shadow: #0a0a0a 5px 5px 5px;
+}
+/*Sistema de navegação*/
+nav{
+  margin: -8px;
+  position: fixed;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 0px 15px 15px 0px;
+  width: 10%;
+  box-shadow: #0a0a0a 5px 5px 5px;
+  border-left: whitesmoke 2px solid;
 }
 /*decoração de rodapé parecida com o header para compatibilidade*/
 footer {
@@ -86,11 +97,20 @@ hr {
 }
 /*esquema do segundo bloco*/
 #centro{
-  position: absolute;
+  margin-right: -150px;
   margin-top: -5px;
   text-align: center;
 }
 #conhecimentos{
   margin: 0 auto;
   margin-top: 50px;
+}
+/*artigo funcionando normal*/
+.artigo{
+  display:block;
+}
+.artigo img{
+  border-radius: 15px;
+  box-shadow: #1a1a1a 5px 5px 5px;
+  width: 100%;
 }
