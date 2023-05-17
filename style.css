@@ -21,9 +21,10 @@ main {
 /*decoração de links com funcionalidade de mudar de cor ao passar o mouse*/
 a {
   color: #dddd;
-  text-decoration: none;
+  transition: color 0.5s ease;
 }
 a:hover {
+  text-decoration: none;
   color: whitesmoke;
 }
 /*decoração de artigos como fichas pequenas centralizadas*/
